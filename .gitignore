@@ -1,0 +1,8 @@
+/packages/
+/bin/
+/obj/
+/[Uu]mbraco/
+/[Uu]mbraco_client/
+/media/
+.user
+/.vs/
