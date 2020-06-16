@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Articles>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "_Layout.cshtml";
+}
+
+@foreach(var article in Model.Children())
+{
+    <h2>@article.Name</h2>
+}
